@@ -1,33 +1,33 @@
 const songs = [
 {
     name: "Perfect",
-    link: "https://www.dropbox.com/s/3mjzj73400sxovk/perfect.mp3?raw=1",
+    link: "https://www.dropbox.com/pri/get/Home%20Resonance.mp3?_subject_uid=2011496881&w=AABuguddDzkVZwnTl6vwCaFL8YAyFvByG5WcuHSaHFVjZQ",
     artists: "Ed Sheeran",
-    image: "https://www.dropbox.com/s/crlthbozdznb13g/perfect.jpeg?raw=1"
+    image: "https://media.giphy.com/media/Id5boIMCwXxbnduKcT/giphy.gif"
 },
 {
     name: "7 Rings",
-    link: "https://www.dropbox.com/s/yo5tcfdjoz95ozf/7-rings.mp3?raw=1",
+    link: "https://www.dropbox.com/pri/get/the%20weeknd%20-%20save%20your%20tears%20%5Bslowed%20&%20reverb%5D%20%28audio-extractor.net%29.mp3?_subject_uid=2011496881&w=AACWdLspTlYD6QySc_37AuuHG2ymFTojtlJdCukhBxENUQ",
     artists: "Ariana Grande",
-    image: "https://www.dropbox.com/s/gobvfxj4r0t053v/7-rings.jpg?raw=1"
+    image: "https://media.giphy.com/media/dApODKgn3zhJSMz32C/giphy.gif"
 },
 {
     name: "Happier",
     link: "https://www.dropbox.com/s/zp1xfir101y4sc3/happier.mp3?raw=1",
     artists: "Marshmello",
-    image: "https://www.dropbox.com/s/xxmwcz14hkn7iwl/happier.png?raw=1"
+    image: "https://media.giphy.com/media/XeXkvewCclRpSPYerO/giphy.gif"
 },
 {
     name: "Stay",
     link: "https://www.dropbox.com/s/umam9olakop001d/stay.mp3?raw=1",
     artists: "Justin Bieber",
-    image: "https://www.dropbox.com/s/kierj5lzst1yx9n/stay.jpg?raw=1"
+    image: "https://media.giphy.com/media/jVBfscMXbbb5nAFjQW/giphy.gif"
 },
 {
     name: "Girls Like You",
     link: "https://www.dropbox.com/s/yi1cpg16snrl3fc/girls-like-you.mp3?raw=1",
     artists: "Maroon 5",
-    image: "https://www.dropbox.com/s/ouq5zzgbqsk9zx0/girls-like-you.png?raw=1"
+    image: "https://media.giphy.com/media/WoR3wMdCAHd2r8y19d/giphy.gif"
 }
 ];
 

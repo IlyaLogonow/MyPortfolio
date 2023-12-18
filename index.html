@@ -84,13 +84,24 @@
 		</div>
 	</div>
 
+	<!-- <div class="player">
+		<audio id="song">
+			<source src="" type="audio/mp3"></source>
+		</audio>
+		<div class="action">
+			<button onclick="prevPlay()">
+				<i class="bx bx-skip-previous"></i>
+			</button>
+			<button onclick="playPause()" class="play" id="play">
+				<i class="bx bx-play"></i>
+			</button>
+			<button onclick="nextPlay()">
+				<i class="bx bx-skip-next"></i>
+			</button>
+		</div>
+	</div> -->
+
 	<div class="player">
-		<div class="header">
-			Music <span>Player</span>
-		</div>
-		<div class="img">
-			<img src="" id="thumb">
-		</div>
 		<div class="details">
 			<h3 id="title"></h3>
 			<p id="musician"></p>
@@ -99,44 +110,52 @@
 			<source src="" type="audio/mp3">
 			</source>
 		</audio>
+		
 		<div class="time">
 			<span id="start">2:28</span>
 			<span id="end">4:33</span>
 		</div>
 		<input type="range" id="progress" value="0">
+		
 		<div class="action">
-		<button onclick="prevPlay()">
+			<div class="img">
+				<img src="" id="thumb">
+			</div>
+
+			<button onclick="prevPlay()">
 			<i class="bx bx-skip-previous"></i>
-		</button>
-		<button onclick="playPause()" class="play" id="play">
+			</button>
+		
+			<button onclick="playPause()" class="play" id="play">
 			<i class="bx bx-play"></i>
-		</button>
-		<button onclick="nextPlay()">
+			</button>
+		
+			<button onclick="nextPlay()">
 			<i class="bx bx-skip-next"></i>
-		</button>
+			</button>
+		</div>
 	</div>
-</div>
-<div class="loading__wrapper">
-	<div class="loader--text">Loading...</div>
-	<div class="loader">
-		<span></span>
+	<div class="loading__wrapper">
+		<div class="loader--text">Loading...</div>
+		<div class="loader">
+			<span></span>
+		</div>
 	</div>
-</div>
 
-<svg class="icons" style="display: none;">
-	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-		<polyline points='328 112 184 256 328 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-	</symbol>
-	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-		<polyline points='184 112 328 256 184 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-	</symbol>
-</svg>
+	<svg class="icons" style="display: none;">
+		<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='328 112 184 256 328 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+		<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='184 112 328 256 184 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+	</svg>
 
-<div class="cursor small"></div>
+	<div class="cursor small"></div>
 
-<script src='js/pkgdMin.js'></script>
-<script src='js/gsapMin.js'></script>
-<script src="js/song.js"></script>
-<script src="js/script.js"></script>
+	<script src='js/pkgdMin.js'></script>
+	<script src='js/gsapMin.js'></script>
+	<script src="js/song.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
