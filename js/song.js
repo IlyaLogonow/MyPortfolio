@@ -1,32 +1,32 @@
 const songs = [
 {
-    name: "Perfect",
+    name: "X",
     link: "https://www.dropbox.com/pri/get/Home%20Resonance.mp3?_subject_uid=2011496881&w=AABuguddDzkVZwnTl6vwCaFL8YAyFvByG5WcuHSaHFVjZQ",
-    artists: "Ed Sheeran",
+    artists: "X",
     image: "https://media.giphy.com/media/Id5boIMCwXxbnduKcT/giphy.gif"
 },
 {
-    name: "7 Rings",
+    name: "X",
     link: "https://www.dropbox.com/pri/get/the%20weeknd%20-%20save%20your%20tears%20%5Bslowed%20&%20reverb%5D%20%28audio-extractor.net%29.mp3?_subject_uid=2011496881&w=AACWdLspTlYD6QySc_37AuuHG2ymFTojtlJdCukhBxENUQ",
-    artists: "Ariana Grande",
+    artists: "X",
     image: "https://media.giphy.com/media/dApODKgn3zhJSMz32C/giphy.gif"
 },
 {
-    name: "Happier",
-    link: "https://www.dropbox.com/s/zp1xfir101y4sc3/happier.mp3?raw=1",
-    artists: "Marshmello",
+    name: "X",
+    link: "https://www.dropbox.com/pri/get/V%C3%98J,Narvent%20-%20Memory%20Reboot.mp3?_subject_uid=2011496881&w=AACu6MaKt3JEv9Wcq7UuJNd9MSkgLhehGQxntpK0KnBM2w",
+    artists: "X",
     image: "https://media.giphy.com/media/XeXkvewCclRpSPYerO/giphy.gif"
 },
 {
-    name: "Stay",
-    link: "https://www.dropbox.com/s/umam9olakop001d/stay.mp3?raw=1",
-    artists: "Justin Bieber",
+    name: "X",
+    link: "https://www.dropbox.com/pri/get/Mr.%20Kitty%20-%20After%20Dark.mp3?_subject_uid=2011496881&w=AADjA_IwOEADPqYaHuH6wgl4jgvHeJYa2gnkjYxIG_5VhQ",
+    artists: "X",
     image: "https://media.giphy.com/media/jVBfscMXbbb5nAFjQW/giphy.gif"
 },
 {
-    name: "Girls Like You",
-    link: "https://www.dropbox.com/s/yi1cpg16snrl3fc/girls-like-you.mp3?raw=1",
-    artists: "Maroon 5",
+    name: "X",
+    link: "https://www.dropbox.com/pri/get/College%20-%20A%20Real%20Hero%20%28OST%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%29.mp3?_subject_uid=2011496881&w=AABkaq2mVS0xPxJYS6w4N1vonn_WGTWutvvwzxqVJkOdaA",
+    artists: "X",
     image: "https://media.giphy.com/media/WoR3wMdCAHd2r8y19d/giphy.gif"
 }
 ];
