@@ -3,103 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/projects.css">
+    <title>Frontend Projects</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <!--FONTS-->
+    <!--CSS-->
+	<!--<link rel="stylesheet" href="css/frontend-projects.css"> To edit -->
+	<link rel="stylesheet" href="css/frontendProjectsMinifier.css">
+	<!--CSS-->
+    <link rel="icon" href="./gif/giphy1.gif" type="image/x-icon">
 </head>
 <body>
-    <div class="app__bg">
-		<div class="app__bg__image current--image">
-			<img src="gif/giphy1.gif" alt="" />
-		</div>
-	</div>
-    <div class="shadow-title parallax-top-shadow">work</div>
-    <div class="section-parallax parallax-00" style="background-image: url('http://www.ivang-design.com/svg-load/parallax/parallax-0.png');"></div>
-    <div class="section-parallax parallax-01" style="background-image: url('http://www.ivang-design.com/svg-load/parallax/parallax-01.png');"></div>
-
-    <div class="section full-height">
-        <div class="section-title-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center parallax-fade-top">
-                        <p>My projects</p>	
-                        <h1>Frontd End</h1>
-                    </div>
-                </div>	
+    <div class="scroller">
+        <div class="container">
+            <div class="shadow-title">work</div>
+            <div class="app__bg">
+                <div class="app__bg__image current--image">
+                    <img src="gif/giphy1.gif" alt="" />
+                </div>
+            </div>
+            <div class="movies">
+                <div class="movie">
+                    <div><a class="movie__link" href="webSiteProjects.html"><span>Web Site Projects</span></a></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div style="background-image: url('./img/css-art.webp')"></div>
+                </div>
+                <div class="movie">
+                    <div style="background: #111; box-shadow: none"><a class="movie__link" href="jsProjects.html"><span>Js Projects</span></a></div>
+                    <div style="background: #111; box-shadow: none"></div>
+                    <div style="background: #111; box-shadow: none"></div>
+                    <div style="background: #111; box-shadow: none"></div>
+                    <div style="background: #111; box-shadow: none"></div>
+                    <div style="background-image: url('./img/js-art.webp')"></div>
+                </div>
+                <div class="movie">
+                    <div><a class="movie__link" href="reactProjects.html"><span>React Projects</span></a></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div style="background-image: url('./img/react-art.jpg')"></div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="section full-height z-bigger">
-        <ul class="case-study-wrapper">
-            <li class="case-study-name">                            	
-                <a href="#" class="hover-target">Websites</a>
-            </li>
-            <li class="case-study-name">                                         	
-                <a href="#" class="hover-target">JS projects</a>
-            </li>
-            <li class="case-study-name">                                        	
-                <a href="#" class="hover-target">React</a>
-            </li>
-        </ul>
-        <ul class="case-study-images">
-            <li>
-                <div class="img-hero-background">
-                    <img src="http://www.ivang-design.com/svg-load/parallax/light.jpg" alt="">
-                </div>  
-                <div class="hero-number-back">01</div> 
-                <div class="hero-number">01</div> 
-                <div class="hero-number-fixed">04</div> 
-            </li>
-            <li>
-                <div class="img-hero-background">
-                    <img src="http://www.ivang-design.com/svg-load/parallax/flare.jpg" alt="">
-                </div> 
-                <div class="hero-number-back">02</div> 
-                <div class="hero-number">02</div>  
-            </li>
-            <li>
-                <div class="img-hero-background">
-                    <img src="http://www.ivang-design.com/svg-load/parallax/nature.jpg" alt="">
-                </div>
-                <div class="hero-number-back">03</div>  
-                <div class="hero-number">03</div>  
-            </li>
-        </ul>	
-    </div>
-
-    <div class="section padding-top-bottom over-hide background-dark z-bigger-2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
-                    <a href="#" class="hover-target">
-                        <div class="project-link-wrap">
-                            <p>let's talk</p>
-                        </div>
-                    </a>
-                </div>
-            </div>	
-        </div>			
-    </div>
-
-    <!-- Scroll back to top
-    ================================================== -->
-
-    <div class="scroll-to-top hover-target"></div>
-
-    <!-- Page cursor
-    ================================================== -->
-
-    <div class='cursor' id="cursor"></div>
-    <div class='cursor2' id="cursor2"></div>
-    <div class='cursor3' id="cursor3"></div>
-
-    <!-- Link to page
-    ================================================== -->
-
-    <a href="#" class="link-to-portfolio hover-target" target=”_blank”></a>
-    <!-- сначала выполнится jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- после jQuery свой скрипт, зависящий от jQuery -->
-    <script src="js/projects.js"></script>
+    
+    <!--<script src="js/frontend-projects.js"></script> To edit-->
+	<script src="js/frontendProjectsMinifier.js"></script>
 </body>
 </html>
