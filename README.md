@@ -1,6 +1,6 @@
 ## MyPortfolio
 # Сайт-портфолио.
-![EliasPortfolio-Website]([[https://github.com/IlyaLogonow/EliasPortfolio-Website/blob/main/EliasPortfolio-Website.png](https://github.com/IlyaLogonow/MyPortfolio/blob/main/main-art.jpg)](https://github.com/IlyaLogonow/MyPortfolio/blob/main/main-art.jpg?raw=true))
+![EliasPortfolio-Website](https://github.com/IlyaLogonow/MyPortfolio/blob/main/main-art.jpg)
 
 ## Инструменты 
 Для создание сайта использовались следующие инструменты:
