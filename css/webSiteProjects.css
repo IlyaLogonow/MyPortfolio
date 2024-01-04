@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
 :root {
   --gradient-bg: linear-gradient(30deg, rgba(0, 0, 0, .95) 50%, rgba(0, 0, 0, .9) 50.1%);
   --color-primary: #ffeba7;
@@ -73,6 +72,27 @@ body {
 	--image-translate-offset: 25%;
 }
 /*BACKGROUND-END*/
+
+.shadow-title{
+  position: fixed;
+  top: 0;
+  margin-top: 30px;
+  left: 20px;
+  width: 100%;
+  height: 300%;
+  text-align: left;
+
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  font-size: 8.5vw;
+  line-height: 1;
+  color: rgba(100,200,200,.1);
+  background: linear-gradient(90deg, rgba(200,200,200,0), rgba(200,200,200,0.35));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  z-index: 1;
+}
 
 .swiper {
   width: 100%;
