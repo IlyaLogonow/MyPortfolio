@@ -293,7 +293,7 @@ button:focus {
 }
 .loading__wrapper .loader--text {
 	color: #fff;
-	font-family: "Montserrat";
+	font-size: 60px;
 	font-weight: 500;
 	margin-bottom: 1.4rem;
 }
@@ -433,8 +433,8 @@ button:focus {
 	opacity: 1;
 	border-radius: 50%;
 	border: 5px solid rgba(255, 255, 255, 0.75);
-	top: -35%;
-	left: -36%;
+	top: -34%;
+	left: -34%;
 	background: rgba(198, 16, 0, 0);
 }
 
