@@ -134,7 +134,7 @@ body {
   perspective: 1200px;
   gap: 5rem;
   transition: transform 0.75s ease-out;
-  transform: translateY(0%) translateZ(-100px) rotateY(18deg) rotateX(-12deg) rotateZ(-3deg);	
+  transform: translateY(0%) translateZ(-400px) rotateY(18deg) rotateX(-12deg) rotateZ(-3deg);	
   z-index: 100;
 }
 
@@ -149,11 +149,11 @@ body {
   transition: transform 0.75s ease-in-out, margin 1.5s linear;
 }
 .movie.selected {
-    margin-top: 22rem;
-    margin-bottom: 10rem;
-    transform: rotateX(-90deg) translate3d(0rem,15rem,12rem);
-    transition: transform 1.5s ease-in-out, margin 0.75s linear;
-    perspective: 6400px;  
+  margin-top: 22rem;
+  margin-bottom: 10rem;
+  transform: rotateX(-90deg) translate3d(0rem,15rem,12rem);
+  transition: transform 1.5s ease-in-out, margin 0.75s linear;
+  perspective: 6400px;  
 }
 .movie div {
   position: absolute;
@@ -210,10 +210,47 @@ body {
 	background: linear-gradient(135deg, #f8d00b, #390cdf);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  transition: 0.8s;
 }
-.movie__link:hover {
-  transform: scale(0.8);
+
+.movie__link-pan {
+  position: absolute;
+  top: 47%;
+  left: 25%;
+  pointer-events: all;
+	text-transform: uppercase;
+	color: #FFF;
+  font-size: 50px;
+  transition: 0.8s;
+  animation: pulse 2s ease-in-out infinite;
+}
+.movie__link-pan:hover {
+  color: #0a0a0a;
+}
+.movie__link-pan--react {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  pointer-events: all;
+	text-transform: uppercase;
+	color: #000000;
+  font-size: 50px;
+  transition: 0.8s;
+  animation: pulse 2s ease-in-out infinite;
+}
+.movie__link-pan--react:hover {
+  color: #6f6f6f;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(.85);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.85);
+  }
 }
 
 .logo-wrapper {
