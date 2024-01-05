@@ -101,6 +101,29 @@ button:focus {
 }
 /*BG-END*/
 
+/*.social-media*/
+.social-media {
+	position: absolute;
+	top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.social-media li {
+	list-style: none;
+	transition: 0.8s;
+}
+.social-media li:not(:last-child){
+	margin-right: 20px;
+}
+.social-media li:hover {
+	transform: scale(1.3);
+}
+.social-media img {
+	width: 50px;
+	height: 50px;
+}
+/*.social-media-END*/
+
 .cardList {
 	position: absolute;
 	width: calc(3 * var(--card-width));
